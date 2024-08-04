@@ -1,0 +1,16 @@
+.sticky {
+  width: 150px;
+  height: 150px;
+  border: 2px solid aqua;
+  
+  /* Position */
+  position: sticky;
+  
+  /*
+  top: ;
+  bottom: ;
+  left: ;
+  right: ;
+  */
+  top: 25px;
+}
