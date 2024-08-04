@@ -1,0 +1,20 @@
+.container {
+  border: 2px solid #000;
+  padding: 10px;
+  margin: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.box-right {
+  width: 200px;
+  height: 200px;
+}
