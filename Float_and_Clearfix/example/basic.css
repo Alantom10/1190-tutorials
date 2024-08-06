@@ -1,20 +1,43 @@
-.container {
-  border: 2px solid #000;
-  padding: 10px;
+html, body {
+  background-color: #ffeead;
   margin: 10px;
+  font-size: 20px;
 }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: lightblue;
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center
+p {
+  color: #96ceb4;
+  text-align: center;
 }
 
-.box-right {
-  width: 200px;
+.header {
+  background-color: #96ceb4;	
+  line-height: 40px;
+}
+
+.header :nth-child(2) {
+  padding: 0 40px;
+}
+
+.menu {
+  background-color: #ff6f69;
   height: 200px;
+  line-height: 200px;
 }
+
+.content {
+  background-color: #ffcc5c;
+  height: 200px;
+  line-height: 200px;
+}
+
+.footer {
+  background-color: #88d8b0;
+  height: 40px;
+  line-height: 40px;
+}
+
+.float-page > div {
+  color: #ffeead;
+  padding: 0 1%;
+}
+

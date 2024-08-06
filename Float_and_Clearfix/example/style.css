@@ -1,13 +1,30 @@
-.float-left {
-  /* float: left; */
+/* Header */
+.header > div {
+  float: left;
 }
 
-.float-right {
-  /* float: right; */
+.header > div:nth-child(3) {
+  float: right;
 }
 
-.clear {
-  /* clear: ; */
-  
-  /* left | right | both */
+.header {
+  display: flow-root;
+  height: 40px;
+}
+
+.menu, .content {
+  float: left;
+}
+
+.menu {
+  width: 6%;
+}
+
+.content {
+  width: 90%;
+}
+
+/* to make footer visible because of floating menu and content */
+.footer {
+  clear: both;
 }
