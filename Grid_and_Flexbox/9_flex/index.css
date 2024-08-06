@@ -1,0 +1,16 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+  }
+
+  /* .container > div {
+    flex: 1; */
+    /* better than using width: 33.3333% as it causes issues when new item is added */
+    
+    /*flex-grow, flex-shrink, flex-basis */
+  /* } */
+  
+  
+  /* .container > .search {
+    flex: 2;
+  } */
