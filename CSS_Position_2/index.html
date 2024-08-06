@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Demo for Static position -->
+    <div class="static-demo">
+        <div class="boxes">
+            <div class="static">Static Box 1</div>
+            <div class="static">Static Box 2</div>
+            <div class="static">Static Box 3</div>    
+        </div>
+
+        <div class="controls static-controls">
+            <label for="static-top">Top:</label>
+            <input type="number" id="static-top" name="top"><span>px</span>
+            <label for="static-bottom">Bottom:</label>
+            <input type="number" id="static-bottom" name="bottom"><span>px</span>
+            <label for="static-left">Left:</label>
+            <input type="number" id="static-left" name="left"><span>px</span>
+            <label for="static-right">Right:</label>
+            <input type="number" id="static-right" name="right"><span>px</span>
+            <hr style="grid-column: 1 / -1; width: 100%; height: 2px; border-color: aqua;">
+            <label for="static-margin">Margin:</label>
+            <input type="number" id="static-margin" name="margin"><span>px</span>
+        </div>
+    </div>
+
+    <!-- Demo for Relative position -->
+    <div class="relative-demo">
+        <div class="boxes">
+            <div class="relative">Relative Box</div>
+        </div>
+
+        <div class="controls relative-controls">
+            <label for="relative-top">Top:</label>
+            <input type="number" id="relative-top" name="top"><span>px</span>
+            <label for="relative-bottom">Bottom:</label>
+            <input type="number" id="relative-bottom" name="bottom"><span>px</span>
+            <label for="relative-left">Left:</label>
+            <input type="number" id="relative-left" name="left"><span>px</span>
+            <label for="relative-right">Right:</label>
+            <input type="number" id="relative-right" name="right"><span>px</span>
+            <hr style="grid-column: 1 / -1; width: 100%; height: 2px; border-color: aqua;">
+            <label for="relative-margin">Margin:</label>
+            <input type="number" id="relative-margin" name="margin"><span>px</span>
+        </div>
+    </div>
+
+    <!-- Demo for Absolute position -->
+    <div class="absolute-demo">
+        <div class="absolute-box boxes">
+            <div class="absolute">Absolute Box</div>
+        </div>
+
+        <div class="controls absolute-controls">
+            <label for="absolute-top">Top:</label>
+            <input type="number" id="absolute-top" name="top"><span>px</span>
+            <label for="absolute-bottom">Bottom:</label>
+            <input type="number" id="absolute-bottom" name="bottom"><span>px</span>
+            <label for="absolute-left">Left:</label>
+            <input type="number" id="absolute-left" name="left"><span>px</span>
+            <label for="absolute-right">Right:</label>
+            <input type="number" id="absolute-right" name="right"><span>px</span>
+            <hr style="grid-column: 1 / -1; width: 100%; height: 2px; border-color: aqua;">
+            <label for="absolute-margin">Margin:</label>
+            <input type="number" id="absolute-margin" name="margin"><span>px</span>
+        </div>
+    </div>
+
+    <!-- Demo for Fixed position -->
+    <div class="fixed-demo">
+        <div class="boxes">
+            <div class="fixed">Fixed Box</div>
+        </div>
+
+        <div class="controls fixed-controls">
+            <label for="fixed-top">Top:</label>
+            <input type="number" id="fixed-top" name="top"><span>px</span>
+            <label for="fixed-bottom">Bottom:</label>
+            <input type="number" id="fixed-bottom" name="bottom"><span>px</span>
+            <label for="fixed-left">Left:</label>
+            <input type="number" id="fixed-left" name="left"><span>px</span>
+            <label for="fixed-right">Right:</label>
+            <input type="number" id="fixed-right" name="right"><span>px</span>
+            <hr style="grid-column: 1 / -1; width: 100%; height: 2px; border-color: aqua;">
+            <label for="fixed-margin">Margin:</label>
+            <input type="number" id="fixed-margin" name="margin"><span>px</span>
+        </div>
+    </div>
+
+    <!-- Demo for Sticky position -->
+    <div class="sticky-demo">
+        <div class="sticky-box boxes">
+            <div class="sticky">Sticky Box</div>
+        </div>
+
+        <div class="controls sticky-controls">
+            <label for="sticky-top">Top:</label>
+            <input type="number" id="sticky-top" name="top"><span>px</span>
+            <label for="sticky-bottom">Bottom:</label>
+            <input type="number" id="sticky-bottom" name="bottom"><span>px</span>
+            <label for="sticky-left">Left:</label>
+            <input type="number" id="sticky-left" name="left"><span>px</span>
+            <label for="sticky-right">Right:</label>
+            <input type="number" id="sticky-right" name="right"><span>px</span>
+            <hr style="grid-column: 1 / -1; width: 100%; height: 2px; border-color: aqua;">
+            <label for="sticky-margin">Margin:</label>
+            <input type="number" id="sticky-margin" name="margin"><span>px</span>
+        </div>
+    </div>
+    
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 600vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/* Controls */
+.controls {
+    width: 25%;
+    position: absolute;
+    left: 75%;
+    bottom: 50%;
+    display: grid;
+    grid-template-columns: 100px 50px 25px;
+    grid-template-rows: repeat(6, 25px);
+    grid-gap: 5px;
+}
+
+.sticky-controls {
+    bottom: 75%;
+}
+
+
+.boxes {
+    width: 75%;
+    box-sizing: border-box;
+}
+
+
+/* Static */
+.static-demo {
+    background-color: #DEEFE7;
+    width: 100%;
+    height: 100vh;
+    border: 15px solid #002333;
+    position: relative;
+}
+
+.static {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #159A9C;
+    color: #B4BEC9;
+    border: 5px solid #B4BEC9;
+}
+
+
+/* Relative */
+.relative-demo {
+    background-color: #83D4A9;
+    width: 100%;
+    height: 100vh;
+    border: 15px solid #00967D;
+    position: relative;
+}
+
+.relative {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #F5B82A;
+    color: #DB6816;
+    border: 5px solid #DB6816;
+
+    /* POSITION */
+    position: relative;
+}
+
+
+/* Absolute */
+.absolute-demo {
+    background-color: #D9E8F5;
+    width: 100%;
+    height: 100vh;
+    border: 15px solid #304269;
+    position: relative;
+}
+
+.absolute-box {
+    border: 25px solid #86ABD4;
+    height: 75vh;
+}
+
+.absolute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #FFFFFF;
+    color: #F26101;
+    border: 5px solid #F26101;
+
+    /* POSITION */
+    position: absolute;
+}
+
+
+/* Fixed */
+.fixed-demo {
+    background-color: #CACACA;
+    width: 100%;
+    height: 100vh;
+    border: 15px solid #202022;
+    position: relative;
+}
+
+.fixed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #00BBC9;
+    color: #00747C;
+    border: 5px solid #00747C;
+
+    /* POSITION */
+    position: fixed;
+}
+
+
+/* Sticky */
+.sticky-demo {
+    background-color: #B4CF66;
+    width: 100%;
+    height: 200vh;
+    border: 15px solid #146152;
+    position: relative;
+    overflow: visible;
+}
+
+.sticky-box {
+    height: 100%;
+}
+
+.sticky {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #FFEC5C;
+    color: #FF5A33;
+    border: 5px solid #FF5A33;
+
+    /* POSITION */
+    position: sticky;
+}
+
+
+/* .container {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 2px solid #333;
+    position: relative;
+    overflow: hidden;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+}
+
+.static { background-color: #1abc9c; }
+.relative { background-color: #3498db; position: relative; }
+.absolute { background-color: #9b59b6; position: absolute; }
+.fixed { background-color: #e74c3c; position: fixed; }
+.sticky { background-color: #f1c40f; position: sticky; top: 10px; } */
