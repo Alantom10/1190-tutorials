@@ -1,7 +1,6 @@
 .sticky {
   width: 150px;
   height: 150px;
-  border: 2px solid aqua;
   
   /* Position */
   position: sticky;
@@ -12,5 +11,5 @@
   left: ;
   right: ;
   */
-  top: 25px;
+  top: 0;
 }
