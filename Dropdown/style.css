@@ -1,0 +1,247 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 600vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/* Button 1 */
+
+.dropdownbtn {
+    background-color: #3f51b5;
+    color: white;
+    padding: 16px;
+}
+
+.dropdown {
+    position: relative;
+    cursor: pointer;
+    
+    /* Just used to display demo */
+    width: 120px;
+    margin: 0 auto;
+    /*  */
+}
+
+.content {
+    background-color: #f9f9f9;
+    min-width: 160px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.content::before {
+    content: '';
+    position: absolute;
+    top: -8px; /* Position it above the dropdown content */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: transparent transparent #f9f9f9 transparent; /* Create a triangle */
+}
+
+.content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdownbtn {
+    background-color: #002984;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Button 2 */
+
+.dropdown-2 {
+    position: relative;
+    cursor: pointer;
+
+    /* Just used to display demo */
+    width: 170px;
+    margin: 0 auto;
+    /*  */
+}
+
+.dropdown-2 > button {
+    width: 170px;
+    height: 60px;
+    border: 0;
+    border-radius: 6px;
+    background: #3c3c3c;
+}
+
+.dropdown-2 > .content-2 {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: #f7f7f7;
+}
+
+.dropdown-2 > .content-2::after {
+    content: "";
+    position: absolute;
+    bottom: 6px;
+    right: 10%;
+    width: 80%;
+    height: 1px;
+    transform: scaleX(0);
+    background: rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+}
+
+.dropdown-2:hover >
+.content-2::after {
+    transform: scaleX(1);
+}
+
+.dropdown-2 > .content-2 >
+span:last-child {
+    margin-left: auto;
+    transition: 0.3s;
+}
+
+.dropdown-2:hover > .content-2 >
+span:last-child {
+    rotate: -180deg;
+}
+
+.dropdown-2 > .menu-2 {
+    position: absolute;
+    z-index: 1;
+    top: -6px;
+    left: 50%;
+    display: grid;
+    width: 110%;
+    padding: 70px 0 6px;
+    border-radius: 6px;
+    translate: -50% 0;
+    visibility: hidden;
+    opacity: 0;
+    scale: 0.85;
+    background: linear-gradient(#ea8d8d, #a890fe);
+    transition: 0.3s;
+}
+
+.dropdown-2:hover > .menu-2 {
+    visibility: visible;
+    opacity: 1;
+    scale: 1;
+}
+
+.dropdown-2 > .menu-2 > a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #f7f7f7;
+    font-size: 14px;
+    padding: 0 24px;
+    text-decoration: none;
+}
+
+.dropdown-2 > .menu-2 > a:hover {
+    background: rgba(0,0,0,0.1);
+}
+
+
+/* Button 3 */
+
+.dropdown-3 {
+    position: relative;
+    cursor: pointer;
+    background-color: #3c3c3c;
+    color: #f7f7f7;
+    padding: 0 16px;
+    border-radius: 5px;
+
+    /* Just used to display demo */
+    width: 170px;
+    margin: 0 auto;
+    /*  */
+}
+
+.content-3 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    height: 60px;
+}
+
+.menu-3 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.16);
+    padding: 8px 0;
+    display: grid;
+    background: #3c3c3c;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.dropdown-3:hover .menu-3 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-3::before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    border-top: 1px solid rgba(255,255,255,0.16);
+    border-right: 1px solid rgba(255,255,255,0.16);
+    top: -7px;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    rotate: -45deg;
+
+}
+
+.menu-3 > a {
+    padding: 12px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-3 > a:hover {
+    background: rgba(255, 255, 255, 0.04);
+}
