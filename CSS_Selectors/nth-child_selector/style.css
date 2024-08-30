@@ -1,0 +1,59 @@
+.first-child:hover + .child-demo > div:first-child {
+    background-color: white;
+    color: #1F1B24;
+    transition: background-color 1s linear;
+}
+
+.last-child:hover + .child-demo > div:last-child {
+    background-color: white;
+    color: #1F1B24;
+    transition: background-color 1s linear;
+}
+
+.nth-child-2:hover + .child-demo > div:nth-child(2) {
+    background-color: white;
+    color: #1F1B24;
+    transition: background-color 1s linear;
+}
+
+.nth-child-3n:hover + .child-demo > div:nth-child(3n) {
+    background-color: white;
+    color: #1F1B24;
+    transition: background-color 1s linear;
+}
+
+.nth-child-odd:hover + .child-demo > div:nth-child(odd) {
+    background-color: white;
+    color: #1F1B24;
+    transition: background-color 1s linear;
+}
+
+.nth-child-even:hover + .child-demo > div:nth-child(even) {
+    background-color: white;
+    color: #1F1B24;
+    transition: background-color 1s linear;
+}
+
+.nth-child-n-plus-4:hover + .child-demo > div:nth-child(n+4) {
+    background-color: white;
+    color: #1F1B24;
+    transition: background-color 1s linear;
+}
+
+.nth-child-3n-minus-1:hover + .child-demo > div:nth-child(3n-1) {
+    background-color: white;
+    color: #1F1B24;
+    transition: background-color 1s linear;
+}
+
+.nth-child-minus-n-plus-3:hover + .child-demo > div:nth-child(-n+3) {
+    background-color: white;
+    color: #1F1B24;
+    transition: background-color 1s linear;
+}
+
+.nth-last-child-2:hover + .child-demo > div:nth-last-child(2) {
+    background-color: white;
+    color: #1F1B24;
+    transition: background-color 1s linear;
+}
