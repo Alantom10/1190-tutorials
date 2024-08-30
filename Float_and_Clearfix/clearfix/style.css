@@ -19,6 +19,6 @@
 } */
 
 /* Method 3 */
-/* .container {
+.container {
   display: flow-root;
-} */
+}

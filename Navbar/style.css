@@ -161,8 +161,8 @@ body {
     border: 1px solid var(--gray-border);
     z-index: 2;
     animation: fadeIn 0.2s ease-in-out;
-    background: rgba(16, 16, 16, 0.5);
-    backdrop-filter: blur(10px); /* Add backdrop-filter */
+    background-color: rgba(16, 16, 16, 0.5);
+    backdrop-filter: blur(10px);
     box-shadow: 0 0 5px var(--background);
 }
 
