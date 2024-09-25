@@ -1,0 +1,75 @@
+/* Basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    height: 100px;
+}
+
+.logo {
+    float: left;
+    color: white;
+    padding-left: 100px;
+}
+
+/* .logo > a > img {
+    height: 100px;
+    width: 100%;
+} */
+
+img {
+    height: 100px;
+    width: 100%;
+}
+
+/* .nav-links {
+    list-style: none;
+    float: right;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+} */
+
+.nav-links {
+    list-style: none;
+    float: right;
+    height: 100%;
+    padding-right: 100px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 20px;
+    height: 100%;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    height: 100%;
+    display: inline-block;
+    padding-top: 35px;
+}
