@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+
+    width: 1500px;
+}
+
+.image {
+    position: absolute;
+}
+
+.block-1 {
+    right: 0;
+}
+
+.block-2 {
+    left: 0;
+    top: 333.33px;
+}
+
+.block-3 {
+    top: 500px;
+    left: 750px;
+}
+
+.block-4 {
+    right: 0;
+    bottom: 170px;
+}
+
+.block-5 {
+    left: 0;
+    bottom: 3px;
+}
